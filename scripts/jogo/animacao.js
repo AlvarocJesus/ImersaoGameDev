@@ -22,7 +22,7 @@ class Animacao{
     anima(){
         this.frameAtual++;
 
-        if(this.frameAtual>=this.matriz.lengh-1){
+        if(this.frameAtual>=this.matriz.lenght-1){
             this.frameAtual = 0;
         }
     }

@@ -124,7 +124,7 @@ function preload(){
   
   imagemInimigo = loadImage("./assets/imagens/inimigos/gotinha.png");
   imagemInimigoGrande = loadImage("./assets/imagens/inimigos/troll.png");
-  imagemInimigoGrande = loadImage("./assets/imagens/inimigos/gotinha-voadora.png");
+  imagemInimigoVoador = loadImage("./assets/imagens/inimigos/gotinha-voadora.png");
   
   somDoJogo = loadSound("./assets/sons/trilha_jogo.mp3");
   somDoPulo = loadSound("./assets/sons/somPulo.mp3");
@@ -176,3 +176,4 @@ function draw() {
   });
   
 }
+
