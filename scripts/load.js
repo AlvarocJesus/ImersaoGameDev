@@ -8,7 +8,10 @@ function preload(){
   imagemInimigoVoador = loadImage("./assets/imagens/inimigos/gotinha-voadora.png");
 
   imagemTelaInicial = loadImage("../assets/imagens/assets/telaInicial.png");
+  imagemVida = loadImage("../assets/imagens/assets/coracao.png");
+  
   fonteTelaInicial = loadFont("../assets/imagens/assets/fonteTelaInicial.otf");
+  fita = loadJSON('./fita/fita.json');
   
   somDoJogo = loadSound("./assets/sons/trilha_jogo.mp3");
   somDoPulo = loadSound("./assets/sons/somPulo.mp3");

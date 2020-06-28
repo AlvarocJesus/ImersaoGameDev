@@ -1,10 +1,10 @@
 function setup() {
 	createCanvas(windowWidth, windowHeight);
+	frameRate(40);
+	somDoJogo.loop();
 	jogo = new Jogo();
 	jogo.setup();
-	frameRate(40);
 	telaInicial = new TelaInicial();
-	somDoJogo.loop();
 	cenas = {
 		jogo,
 		telaInicial
@@ -13,7 +13,7 @@ function setup() {
 }
 
 function keyPressed(){
-	jogo.keypress(key);
+	jogo.keyPressed(key);
 }
 
 function draw() {

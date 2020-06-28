@@ -21,3 +21,8 @@ canvas {
   border-radius: 0.75rem;
   color: #fff;
 }
+
+.botao-tela-inicial:hover {
+  background-color: #ffc0c1;
+  box-shadow: 2px 2px 0px 1px #b58a8a;
+}

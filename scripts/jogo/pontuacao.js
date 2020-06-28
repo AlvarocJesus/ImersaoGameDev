@@ -1,18 +1,16 @@
-class Pontuacao{
-  constructor(){
-    this.pontos = 0;
+class Pontuacao {
+  constructor() {
+    this.pontos = 0
   }
   
-  exibePonto(){
-    textAlign(RIGHT);
-    fill('#fff');
-    textSize(50);
-    text(parseInt(this.pontos), width-30, 50);
+  exibe() {
+    textAlign(RIGHT)
+    fill('#fff')
+    textSize(50)
+    text(parseInt(this.pontos), width - 30, 50)
   }
   
-  adicionarPonto(){
-    this.ponto++;
-    console.log(this.pontos);
-    
+  adicionarPonto() {
+    this.pontos = this.pontos + 0.2
   }
 }
