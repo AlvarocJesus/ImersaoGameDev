@@ -21,7 +21,7 @@ class Jogo {
     inimigos.push(inimigoVoador);
   }
     
-  keyPressed(key){
+  keyPress(key){
     if(key === 'ArrowUp'){
       personagem.pula();
       somDoPulo.play();

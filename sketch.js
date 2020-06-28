@@ -13,7 +13,7 @@ function setup() {
 }
 
 function keyPressed(){
-	jogo.keyPressed(key);
+	jogo.keyPress(key);
 }
 
 function draw() {
